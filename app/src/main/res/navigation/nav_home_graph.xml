@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_home_graph.xml"
+        app:startDestination="@id/homeFragment">
+
+    <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.gadgetsfury.electionindia.home.HomeFragment"
+            tools:layout="@layout/fragment_home"
+            android:label="HomeFragment">
+        <action android:id="@+id/action_homeFragment_to_announcementsFragment"
+                app:destination="@id/announcementsFragment"/>
+        <action android:id="@+id/action_homeFragment_to_voterServicesFragment"
+                app:destination="@id/voterServicesFragment"/>
+        <action android:id="@+id/action_homeFragment_to_feedbackFragment" app:destination="@id/feedbackFragment"/>
+        <action android:id="@+id/action_homeFragment_to_gamesFragment" app:destination="@id/gamesFragment"/>
+        <action android:id="@+id/action_homeFragment_to_feedsFragment" app:destination="@id/feedsFragment"/>
+        <action android:id="@+id/action_homeFragment_to_contactsFragment" app:destination="@id/contactsFragment"/>
+        <action android:id="@+id/action_homeFragment_to_settingsFragment" app:destination="@id/settingsFragment"/>
+        <action android:id="@+id/action_homeFragment_to_candidatesFragment" app:destination="@id/candidatesFragment"/>
+        <action android:id="@+id/action_homeFragment_to_eventsFragment" app:destination="@id/eventsFragmentNav"/>
+        <action android:id="@+id/action_homeFragment_to_sveepFragment" app:destination="@id/sveepFragment"/>
+        <action android:id="@+id/action_homeFragment_to_KYCFragment" app:destination="@id/KYCFragment"/>
+        <action android:id="@+id/action_homeFragment_to_playlistFragment" app:destination="@id/playlistFragment"/>
+        <action android:id="@+id/action_homeFragment_to_pollConstituencyFragment"
+                app:destination="@id/pollConstituencyFragment"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/feedbackFragment"
+            android:name="com.gadgetsfury.electionindia.settings.FeedbackFragment"
+            android:label="FeedbackFragment"
+            tools:layout="@layout/fragment_feedback"/>
+
+    <fragment
+            android:id="@+id/announcementsFragment"
+            android:name="com.gadgetsfury.electionindia.announcement.AnnouncementsFragment"
+            android:label="fragment_announcements"
+            tools:layout="@layout/fragment_announcements"/>
+
+    <fragment
+            android:id="@+id/gamesFragment"
+            android:name="com.gadgetsfury.electionindia.game.GamesFragment"
+            android:label="fragment_games"
+            tools:layout="@layout/fragment_games"/>
+
+    <fragment
+            android:id="@+id/pollingStationDetailFragment"
+            android:name="com.gadgetsfury.electionindia.poll.PollingStationDetailFragment"
+            android:label="fragment_polling_station_detail"
+            tools:layout="@layout/fragment_polling_station_detail">
+        <argument android:name="pollingStation" app:argType="com.gadgetsfury.electionindia.poll.PollingStation"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/pollingStationsFragment"
+            android:name="com.gadgetsfury.electionindia.poll.PollingStationsFragment"
+            android:label="fragment_polling_stations"
+            tools:layout="@layout/fragment_polling_stations">
+        <action android:id="@+id/action_pollingStationsFragment_to_pollingStationDetailFragment"
+                app:destination="@id/pollingStationDetailFragment"/>
+        <argument android:name="block" app:argType="string"/>
+        <argument android:name="constituency" app:argType="string"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/voterServicesFragment"
+            android:name="com.gadgetsfury.electionindia.service.VoterServicesFragment"
+            android:label="fragment_voter_services"
+            tools:layout="@layout/fragment_voter_services"/>
+
+    <fragment android:id="@+id/feedsFragment"
+              android:name="com.gadgetsfury.electionindia.feeds.FeedsFragment"
+              android:label="FeedsFragment"
+              tools:layout="@layout/fragment_feeds">
+        <action android:id="@+id/action_feedsFragment_to_newsFeedFragment" app:destination="@id/newsFeedFragment"/>
+    </fragment>
+    <fragment android:id="@+id/newsFeedFragment" android:name="com.gadgetsfury.electionindia.feeds.NewsFeedFragment"
+              android:label="fragment_news_feed" tools:layout="@layout/fragment_news_feed">
+        <argument android:name="feed" app:argType="com.gadgetsfury.electionindia.feeds.Feed"/>
+    </fragment>
+    <fragment android:id="@+id/contactsFragment" android:name="com.gadgetsfury.electionindia.contacts.ContactsFragment"
+              android:label="fragment_contacts" tools:layout="@layout/fragment_contacts">
+        <action android:id="@+id/action_contactsFragment_to_contactDetailsFragment"
+                app:destination="@id/contactDetailsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/contactDetailsFragment"
+              android:name="com.gadgetsfury.electionindia.contacts.ContactDetailsFragment"
+              android:label="fragment_contact_details" tools:layout="@layout/fragment_contact_details">
+        <argument android:name="contact" app:argType="com.gadgetsfury.electionindia.contacts.Contact"/>
+    </fragment>
+    <fragment android:id="@+id/settingsFragment"
+              android:name="com.gadgetsfury.electionindia.settings.SettingsFragment"
+              android:label="SettingsFragment">
+        <action android:id="@+id/action_settingsFragment_to_changeLanguageFragment"
+                app:destination="@id/changeLanguageFragment"/>
+    </fragment>
+    <fragment android:id="@+id/changeLanguageFragment"
+              android:name="com.gadgetsfury.electionindia.settings.ChangeLanguageFragment"
+              android:label="fragment_change_language" tools:layout="@layout/fragment_change_language"/>
+    <fragment android:id="@+id/candidatesFragment"
+              android:name="com.gadgetsfury.electionindia.candidate.CandidatesFragment"
+              android:label="fragment_candidates" tools:layout="@layout/fragment_candidates"/>
+    <fragment android:id="@+id/mapFragmentNav" android:name="com.gadgetsfury.electionindia.MapFragment"
+              android:label="fragment_map" tools:layout="@layout/fragment_map"/>
+    <fragment android:id="@+id/eventsFragmentNav" android:name="com.gadgetsfury.electionindia.events.EventsFragment"
+              android:label="fragment_events" tools:layout="@layout/fragment_events">
+        <action android:id="@+id/action_eventsFragmentNav_to_eventDetailsFragment"
+                app:destination="@id/eventDetailsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/eventDetailsFragment"
+              android:name="com.gadgetsfury.electionindia.events.EventDetailsFragment"
+              android:label="fragment_event_details" tools:layout="@layout/fragment_event_details">
+        <argument android:name="event" app:argType="com.gadgetsfury.electionindia.events.ElectionEvent"/>
+    </fragment>
+    <fragment android:id="@+id/sveepFragment" android:name="com.gadgetsfury.electionindia.sveep.SveepFragment"
+              android:label="fragment_sveep" tools:layout="@layout/fragment_sveep">
+        <action android:id="@+id/action_sveepFragment_to_VODsFragment" app:destination="@id/VODsFragment"/>
+        <action android:id="@+id/action_sveepFragment_to_ROHOFsFragment" app:destination="@id/ROHOFsFragment"/>
+        <action android:id="@+id/action_sveepFragment_to_voterFeedsFragment" app:destination="@id/voterFeedsFragment"/>
+        <action android:id="@+id/action_sveepFragment_to_participateFragment"
+                app:destination="@id/participateFragment"/>
+        <action android:id="@+id/action_sveepFragment_to_feedsFragment" app:destination="@id/feedsFragment"/>
+        <action android:id="@+id/action_sveepFragment_to_eventsFragmentNav" app:destination="@id/eventsFragmentNav"/>
+    </fragment>
+    <fragment android:id="@+id/VODsFragment" android:name="com.gadgetsfury.electionindia.sveep.vod.VODsFragment"
+              android:label="fragment_vods" tools:layout="@layout/fragment_vods">
+        <action android:id="@+id/action_VODsFragment_to_vodDetailsFragment" app:destination="@id/vodDetailsFragment"/>
+        <action android:id="@+id/action_VODsFragment_to_vodPartcipateFragment"
+                app:destination="@id/vodPartcipateFragment"/>
+    </fragment>
+    <fragment android:id="@+id/vodDetailsFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.vod.VodDetailsFragment"
+              android:label="fragment_vod_details" tools:layout="@layout/fragment_vod_details">
+        <argument android:name="id" app:argType="integer"/>
+    </fragment>
+    <fragment android:id="@+id/vodPartcipateFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.vod.VodPartcipateFragment"
+              android:label="fragment_vod_partcipate" tools:layout="@layout/fragment_vod_partcipate"/>
+    <fragment android:id="@+id/ROHOFsFragment" android:name="com.gadgetsfury.electionindia.sveep.rohof.ROHOFsFragment"
+              android:label="fragment_rohofs" tools:layout="@layout/fragment_rohofs"/>
+    <fragment android:id="@+id/voterFeedsFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.vfeed.VoterFeedsFragment"
+              android:label="fragment_voter_feeds" tools:layout="@layout/fragment_voter_feeds">
+        <action android:id="@+id/action_voterFeedsFragment_to_VFeedDetailsFragment"
+                app:destination="@id/VFeedDetailsFragment"/>
+        <action android:id="@+id/action_voterFeedsFragment_to_VFeedParticipateFragment"
+                app:destination="@id/VFeedParticipateFragment"/>
+    </fragment>
+    <fragment android:id="@+id/VFeedDetailsFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.vfeed.VFeedDetailsFragment"
+              android:label="fragment_vfeed_details" tools:layout="@layout/fragment_vfeed_details">
+        <argument android:name="id" app:argType="integer"/>
+    </fragment>
+    <fragment android:id="@+id/KYCFragment" android:name="com.gadgetsfury.electionindia.kyc.KYCFragment"
+              android:label="fragment_kyc" tools:layout="@layout/fragment_kyc">
+        <action android:id="@+id/action_KYCFragment_to_constituencyFragment"
+                app:destination="@id/constituencyFragment"/>
+        <action android:id="@+id/action_KYCFragment_to_districtProfileFragment"
+                app:destination="@id/districtProfileFragment"/>
+        <action android:id="@+id/action_KYCFragment_to_lokSabhaProfileFragment"
+                app:destination="@id/lokSabhaProfileFragment"/>
+        <action android:id="@+id/action_KYCFragment_to_mapFragmentNav" app:destination="@id/mapFragmentNav"/>
+    </fragment>
+    <fragment android:id="@+id/constituencyFragment"
+              android:name="com.gadgetsfury.electionindia.kyc.ConstituencyFragment"
+              android:label="fragment_constituency" tools:layout="@layout/fragment_constituency"/>
+    <fragment android:id="@+id/districtProfileFragment"
+              android:name="com.gadgetsfury.electionindia.kyc.DistrictProfileFragment"
+              android:label="fragment_district_profile" tools:layout="@layout/fragment_district_profile"/>
+    <fragment android:id="@+id/lokSabhaProfileFragment"
+              android:name="com.gadgetsfury.electionindia.kyc.LokSabhaProfileFragment"
+              android:label="fragment_lok_sabha_profile" tools:layout="@layout/fragment_lok_sabha_profile"/>
+    <fragment android:id="@+id/playlistFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.video.PlaylistFragment"
+              android:label="fragment_playlist" tools:layout="@layout/fragment_playlist">
+        <action android:id="@+id/action_playlistFragment_to_videosFragment" app:destination="@id/videosFragment"/>
+    </fragment>
+    <fragment android:id="@+id/videosFragment" android:name="com.gadgetsfury.electionindia.sveep.video.VideosFragment"
+              android:label="fragment_videos" tools:layout="@layout/fragment_videos">
+        <argument android:name="playlist" app:argType="com.gadgetsfury.electionindia.sveep.video.Playlist"/>
+    </fragment>
+    <fragment android:id="@+id/VFeedParticipateFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.vfeed.VFeedParticipateFragment"
+              android:label="fragment_vfeed_participate" tools:layout="@layout/fragment_vfeed_participate"/>
+    <fragment android:id="@+id/participateFragment"
+              android:name="com.gadgetsfury.electionindia.sveep.ParticipateFragment"
+              android:label="fragment_participate" tools:layout="@layout/fragment_participate">
+        <action android:id="@+id/action_participateFragment_to_VFeedParticipateFragment"
+                app:destination="@id/VFeedParticipateFragment"/>
+        <action android:id="@+id/action_participateFragment_to_vodPartcipateFragment"
+                app:destination="@id/vodPartcipateFragment"/>
+    </fragment>
+    <fragment android:id="@+id/aboutFragment" android:name="com.gadgetsfury.electionindia.AboutFragment"
+              android:label="fragment_about" tools:layout="@layout/fragment_about"/>
+    <fragment android:id="@+id/pollConstituencyFragment"
+              android:name="com.gadgetsfury.electionindia.poll.PollConstituencyFragment"
+              android:label="fragment_poll_constituency" tools:layout="@layout/fragment_poll_constituency">
+        <action android:id="@+id/action_pollConstituencyFragment_to_pollBlockFragment"
+                app:destination="@id/pollBlockFragment"/>
+    </fragment>
+    <fragment android:id="@+id/pollBlockFragment" android:name="com.gadgetsfury.electionindia.poll.PollBlockFragment"
+              android:label="fragment_poll_block" tools:layout="@layout/fragment_poll_block">
+        <action android:id="@+id/action_pollBlockFragment_to_pollingStationsFragment"
+                app:destination="@id/pollingStationsFragment"/>
+        <argument android:name="block" app:argType="integer"/>
+        <argument android:name="constituency" app:argType="string"/>
+    </fragment>
+
+</navigation>

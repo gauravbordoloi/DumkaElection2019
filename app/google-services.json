@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "465992013628",
+    "firebase_url": "https://election-contest.firebaseio.com",
+    "project_id": "election-contest",
+    "storage_bucket": "election-contest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465992013628:android:0ee0eb3536a9c55b",
+        "android_client_info": {
+          "package_name": "com.gadgetsfury.electionindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465992013628-igt2br0ft3krjipakrng1mbponr9s4a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gadgetsfury.electionindia",
+            "certificate_hash": "73374dff1501cb0a6fede88fd6b1dca975717a6c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt6Zi3hSTMoQUCVEDbfvA7jgyt0W0eibI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465992013628-jng7m989f6jn5kr2ut02a4847ilm4fef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

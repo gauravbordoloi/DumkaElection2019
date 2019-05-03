@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">Dumka Elections 2019</string>
+
+    <string name="call">Call</string>
+    <string name="navigate">Navigate</string>
+    <string name="google_maps_api">AIzaSyD4mprAk2_yAKIqq1cFflO2fT7a50fMP30</string>
+    <string name="news_feeds">News Feeds</string>
+
+    <string name="important_contact_details">Important Contact Details</string>
+    <string name="polling_station_details">Polling Station Details</string>
+    <string name="enter_location_pin_code">Location, Pin code</string>
+    <string name="nearby_me">Nearby Me</string>
+    <string name="candidate_list">Candidate List</string>
+    <string name="jharkhand_map">Jharkhand Map</string>
+    <string name="events">Events</string>
+    <string name="event_details">Event Details</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="get_started">Get Started</string>
+    <string name="loading">Loading…</string>
+    <string name="announcements">Announcements</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="change_language">Change Language</string>
+    <string name="notify_me">Notify Me</string>
+    <string name="submit">Submit</string>
+    <string name="mail_us_at_gmonetix_gmail_com">mail us at nicdumka@gmail.com</string>
+    <string name="need_more_help">Need more help?</string>
+    <string name="type_your_message_here">Type your message here…</string>
+    <string name="message">Message</string>
+    <string name="please_provide_us_your_feed_back_so_that_we_can_work_towards_making_the_app_better_and_providing_you_with_a_much_more_immersive_experience">
+        Please provide us your feed back so that we can work towards making the app better and providing you with a much
+        more immersive experience.
+    </string>
+    <string name="please_provide_your_feedback">Please provide your feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="games">Games</string>
+    <string name="how_shall_we_help_you">How shall we help you?</string>
+    <string name="news_feed">News Feed</string>
+    <string name="voter_services">Voter Services</string>
+
+    <string name="slide_title_1">Get ECI updates at the palm of your hands!</string>
+    <string name="slide_title_2">#GoVote</string>
+    <string name="slide_title_3">Get done things digitally!</string>
+    <string name="slide_desc_1">Get updates from Election Commission of India served at the palm of your hands.</string>
+    <string name="slide_desc_2">A single point of service and information delivery to voters across the country.
+    </string>
+    <string name="slide_desc_3">Make correction in your EPIC card, Track application status, Register complaints.
+    </string>
+
+    <string name="voter_service_1">Apply Online (New)</string>
+    <string name="voter_service_2">Transfer/Shifting</string>
+    <string name="voter_service_3">Deletion (Form 7)</string>
+    <string name="voter_service_4">Correction of entries (Form 8)</string>
+    <string name="voter_service_5">Transposition (Form 8A)</string>
+    <string name="voter_service_6">Issue of replacement EPIC</string>
+    <string name="voter_service_7">Registration of overseas voter (Form 6A)</string>
+    <string name="voter_service_8">Track application status</string>
+    <string name="voter_service_9">J&amp;K Migrant Electors (Form 12C)</string>
+    <string name="voter_service_10">J&amp;K Migrant Electors (Form M)</string>
+    <string name="voter_service_11">FAQ</string>
+
+    <string name="home_item_title_1">Polling Stations</string>
+    <string name="home_item_title_2">SVEEP</string>
+    <string name="home_item_title_3">Announcements</string>
+    <string name="home_item_title_4">Voter Search</string>
+    <string name="home_item_title_5">Voter Service</string>
+    <string name="home_item_title_7">Games</string>
+
+    <string name="home_item_desc_1">Find out details about the polling station.</string>
+    <string name="home_item_desc_2">Systematic Voters\' Education and Electoral Participation.</string>
+    <string name="home_item_desc_3">Important dates related to election and events.</string>
+    <string name="home_item_desc_4">Find out your voter details using EPIC No.</string>
+    <string name="home_item_desc_5">Get stuffs done with all the voter services.</string>
+    <string name="home_item_desc_6">Find out important news regarding elections.</string>
+    <string name="home_item_desc_7">Spend your leisure time playing games.</string>
+
+    <string name="game_title_1">Ludo Social Inclusion</string>
+    <string name="game_title_2">Maze for Forms Game</string>
+    <string name="game_title_3">Snake and Ladder - Aware Voter</string>
+    <string name="game_title_4">Vigilant Voter Card Game</string>
+    <string name="game_title_5">Be the Representative Card Game</string>
+    <string name="game_title_6">Informed Voter Game</string>
+    <string name="game_title_7">Varnmala Hindi: Informed Voter Game</string>
+
+    <string name="game_desc_1">A floor game which can be played by voters to understand "easy and accessible voting"
+    </string>
+    <string name="game_desc_2">A floor game for better understanding of required forms for election purposes</string>
+    <string name="game_desc_3">A floor game designed to educate voters about voting process</string>
+    <string name="game_desc_4">A card game to ensure a voter has successfully completed his voting procedures</string>
+    <string name="game_desc_5">A card game for election candidates to better understand the application procedure
+    </string>
+    <string name="game_desc_6">A blind folded floor game to educate people about rights and information of a voter
+    </string>
+    <string name="game_desc_7">Election theme based hindi alphabet chart</string>
+
+    <string name="home">Home</string>
+    <string name="important_contacts">Important Contacts</string>
+    <string name="voter_education">Voter Education</string>
+    <string name="evm_vvpat">EVM/VVPAT</string>
+    <string name="share_app">Share App</string>
+    <string name="settings">Settings</string>
+    <string name="feeds_notification">Feeds Notification</string>
+    <string name="notification_feeds_summary">Receive notification for news feeds</string>
+    <string name="notification">Notification</string>
+    <string name="announcement_notification">Announcements Notification</string>
+    <string name="notification_announcement_summary">Receive notification for new announcements</string>
+    <string name="event_notification">Events Notification</string>
+    <string name="notification_event_summary">Receive notification for new events</string>
+    <string name="english_hindi">English/Hindi</string>
+    <string name="version">Version</string>
+    <string name="version_no">v1.0.2 (Check for updates)</string>
+    <string name="developed_by">Developed By</string>
+    <string name="developed_by_details">Made with 💖 in India by NIT DGP</string>
+    <string name="app">App</string>
+
+    <string name="sveep">SVEEP</string>
+
+    <string name="sveep_item_1">R.O. Hall of Fame</string>
+    <string name="sveep_item_2">Voter of the Day</string>
+    <string name="sveep_item_3">Voter\'s Feed</string>
+    <string name="sveep_item_4">Participate</string>
+    <string name="sveep_item_5">Videos</string>
+    <string name="sveep_item_6">News Feed</string>
+    <string name="sveep_item_7">Events</string>
+
+    <string name="vod">Voter of The Day</string>
+    <string name="voters_feeds">Voter\'s Feeds</string>
+    <string name="participate_now">Participate Now</string>
+    <string name="full_name">Full Name</string>
+    <string name="your_content">Your Content</string>
+    <string name="interested">Interested</string>
+    <string name="not_interested">Not Interested</string>
+
+    <string name="kyc_constituencies">Dumka Constituencies</string>
+    <string name="kyc_loksabha_profile">Dumka Loksabha Profile</string>
+    <string name="kyc_district_profile">Dumka District Profile</string>
+    <string name="kyc_map">Dumka Map</string>
+    <!--<string name="kyc_graph">Graph</string>
+    <string name="kyc_electors">Total no. of Electors</string>
+    <string name="kyc_more">More about Dumka</string>-->
+    <string name="kyc">Know Your Constituency</string>
+
+    <string name="dumka_assembly_constituency_1">04 - Littipara (ST)</string>
+    <string name="dumka_assembly_constituency_2">07 - Shikaripara (ST)</string>
+    <string name="dumka_assembly_constituency_3">10 - Dumka (ST)</string>
+    <string name="dumka_assembly_constituency_4">11 - Jama (ST)</string>
+    <string name="dumka_assembly_constituency_5">12 - Jarmundi</string>
+    <string name="dumka_assembly_constituency_6">16 - Poraiyahat</string>
+
+    <string name="dumka_parliamentary_constituency_1">07 - Sikaripara (ST)</string>
+    <string name="dumka_parliamentary_constituency_2">08 - Nala</string>
+    <string name="dumka_parliamentary_constituency_3">09 - Jamtara</string>
+    <string name="dumka_parliamentary_constituency_4">10 - Dumka (ST)</string>
+    <string name="dumka_parliamentary_constituency_5">11 - Jama (ST)</string>
+    <string name="dumka_parliamentary_constituency_6">14 - Sarath</string>
+
+    <string name="constituencies">Constituencies</string>
+
+    <string name="elected_candidate_1">President : Smt. Sweeta Jha, IND</string>
+    <string name="elected_candidate_2">Vice President : Sri Vinod Kumar Lal, IND</string>
+
+    <string name="member_1">Ward No 1 : Veena Devi</string>
+    <string name="member_2">Ward No 2: Devshankar Dey</string>
+    <string name="member_3">Ward No 3 : Sanjeev Kumar Yadav</string>
+    <string name="member_4">Ward No 4 : Sweeta Saha</string>
+    <string name="member_5">Ward No 5 : Koushlendra Kumar</string>
+    <string name="member_6">Ward No 6 : Mahesh Ram</string>
+    <string name="member_7">Ward No 7 : Chandan das</string>
+    <string name="member_8">Ward No 8 : Pratima Kumari</string>
+    <string name="member_9">Ward No 9 : Indu devi</string>
+    <string name="member_10">Ward No 10 : Md Jhangir Alam</string>
+    <string name="member_11">Ward No 11 : Rajkumari Devi</string>
+    <string name="member_12">Ward No 12 : Seema Devi</string>
+    <string name="member_13">Ward No 13 : Deepak Swarankar</string>
+    <string name="member_14">Ward No 14 : Sangira Daruka</string>
+    <string name="member_15">Ward No 15 : Seema Devi</string>
+    <string name="member_16">Ward No 16 : Rajkumar Modi</string>
+    <string name="member_17">Ward No 17 : Arbi Khatoon</string>
+    <string name="member_18">Ward No 18 : Rekha Devi</string>
+    <string name="member_19">Ward No 19 : Sumant Kumar Yadav</string>
+    <string name="member_20">Ward No 20 : Manoj Kumar Singh</string>
+    <string name="member_21">Ward No 21 : Soni Hembrom</string>
+
+    <string name="mp_parliamentary_constituency">02 - Dumka</string>
+    <string name="sitting_mp">Shri Shibu Shoren</string>
+    <string name="mp_party">Jharkhand Mukti Morcha</string>
+
+    <string name="ma_assembly_constituency_1">Sikaripara , Constituency No - 7</string>
+    <string name="sitting_mla_1">Nalin Soren</string>
+    <string name="ma_party_1">Nalin Soren</string>
+    <string name="ma_assembly_constituency_2">Dumka , Constituency No - 10</string>
+    <string name="sitting_mla_2">Lois Marandi</string>
+    <string name="ma_party_2">Bharatiya Janata Party</string>
+    <string name="ma_assembly_constituency_3">Jama , Constituency No - 11</string>
+    <string name="sitting_mla_3">Sita Murmu Alias Sita Soren</string>
+    <string name="ma_party_3">Jharkhand Mukti Morcha</string>
+    <string name="ma_assembly_constituency_4">Jarmundi , Constituency No - 12</string>
+    <string name="sitting_mla_4">Badal</string>
+    <string name="ma_party_4">Indian National Congress</string>
+
+    <string name="dumka_district_mp_and_mla">Dumka District MP and MLA</string>
+    <string name="mp">Member of Parliament</string>
+    <string name="ma">Member of Assembly</string>
+
+    <string name="video_playlist">Video Playlist</string>
+    <string name="add_link">Add Link</string>
+    <string name="insert_link">Insert Link</string>
+    <string name="insert_link_title">Insert Link Title</string>
+    <string name="colors">Colors</string>
+    <string name="select">Select</string>
+    <string name="search_booths">Search booths…</string>
+
+    <string name="contributor_name_1">Gaurav Bordoloi</string>
+    <string name="contributor_name_2">Shane Romel Kujur</string>
+    <string name="contributor_name_3">Ramswaroop Soren</string>
+    <string name="contributor_name_4">Gaurav Jaiswal</string>
+    <string name="contributor_name_5">Sagen Soren</string>
+
+    <string name="contributor_link_1">http://gauravbordoloi.me</string>
+    <string name="contributor_link_2">http://shaneromel.me/</string>
+    <string name="contributor_link_3">https://soren.in</string>
+    <string name="contributor_link_4">https://www.linkedin.com/in/gaurav-jaiswal-b17296185/</string>
+    <string name="contributor_link_5">https://www.linkedin.com/in/sagen-soren-b03949130/</string>
+
+    <string name="contributors">Contributors - Team NIT DGP</string>
+    <string name="about_app">About App</string>
+    <string name="feedback_form">Feedback Form</string>
+    <string name="email">Email</string>
+    <string name="phone_optional">Phone (Optional)</string>
+    <string name="add_content">Add your content</string>
+    <string name="app_version">v1.0.2</string>
+    <string name="developed_under_hackathon">Developed under hackathon</string>
+    <string name="code_for_vote">\'Code For Vote\'</string>
+    <string name="govt_of_jharkhand">Dumka, Govt. of Jharkhand, 2019</string>
+    <string name="dumka_constituencies">Dumka Constituencies</string>
+    <string name="assembly_constituencies">Assembly Constituencies</string>
+    <string name="parliamentary_constituencies">Parliamentary Constituencies</string>
+    <string name="dumka_nagar_parishad">Dumka Nagar Parishad</string>
+    <string name="elected_candidates">Elected Candidates</string>
+    <string name="members">Members</string>
+    <string name="r_o_hall_of_fame">R.O. Hall of Fame</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="addcontent">Add Content</string>
+    <string name="submit_now">Submit Now</string>
+    <string name="participate">Participate</string>
+
+    <string name="select_your_constituency">Select your constituency</string>
+    <string name="select_your_block">Select your block</string>
+
+    <string name="contacts_phone_o">Phone (0) : %s</string>
+    <string name="contacts_phone_p">Phone (P) : %s</string>
+    <string name="contacts_fax_o">Fax (0) : %s</string>
+    <string name="contacts_email">Email : %s</string>
+
+    <string name="start_end_placeholder">Start : %s End : %s</string>
+    <string name="people_interested">%d people are interested</string>
+    <string name="you_and_people_interested">You and %d people are interested</string>
+    
+    <string name="some_error_occurred">Some error occurred! Please try again later.</string>
+    <string name="calendar_view">Calendar View</string>
+    <string name="list_view">List View</string>
+    <string name="permission_required_to_share_feeds">This permission is required to share feeds!</string>
+    <string name="permissions_required">Permissions are required to get full features of this app.</string>
+    <string name="constituencies_frag">Assembly Constituencies \n\nParliamentary Constituencies</string>
+    <string name="name_of_sitting_mp">Name of Sitting M.P : </string>
+    <string name="party">Party :</string>
+    <string name="name_of_sitting_mla">Name of Sitting M.L.A :</string>
+    <string name="permission_required_to_call">This permission is required to call!</string>
+
+    <string name="booth_no">Booth No : %s</string>
+    <string name="total_voters">Total Voters : %d</string>
+    <string name="total_pwd_voters">Total PwD Voters : %d</string>
+    <string name="blo">BLO : %s</string>
+    <string name="permission_required_to_show_nearby_polls">Location permission is required to access nearby Polls!</string>
+
+    <string name="clear">Clear</string>
+    <string name="show_all">Show All</string>
+    <string name="fetching_your_location">Fetching your location!</string>
+    <string name="feedback_submitted_successfully">Feedback submitted successfully</string>
+    <string name="this_field_is_required">This field is required</string>
+    <string name="ten_digit_required">10 digit number required</string>
+    <string name="subscribed_to_notification">Subscribed to notification successfully</string>
+    <string name="unsubscribed_to_notification">Unsubscribed to notification successfully</string>
+    <string name="insert_text_here">Insert text here…</string>
+    <string name="select_image">Select Image</string>
+    <string name="content_submitted_successfully">Your content was submitted successfully</string>
+    <string name="image_uploaded_successfully">Image uploaded successfully!</string>
+    <string name="image_or_content_is_required">Image or content is required to submit voter posts!</string>
+    <string name="choose_one">Choose One</string>
+    <string name="external_storage_not_available">External storage is not available!</string>
+    <string name="share_app_text">Download the %s app for free now. Click the link below to download\n\n%s</string>
+
+</resources>

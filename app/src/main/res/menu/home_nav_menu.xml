@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navHome"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home"/>
+
+    <item
+            android:id="@+id/navEvents"
+            android:title="@string/events"
+            android:icon="@drawable/ic_calendar"/>
+
+    <item
+            android:id="@+id/navContacts"
+            android:title="@string/important_contacts"
+            android:icon="@drawable/ic_eci_officials"/>
+
+    <item
+            android:id="@+id/navCandidateList"
+            android:title="@string/candidate_list"
+            android:icon="@drawable/ic_account"/>
+
+    <item
+            android:id="@+id/navKYC"
+            android:title="@string/kyc"
+            android:icon="@drawable/ic_map"/>
+
+    <item
+            android:id="@+id/navVoterServices"
+            android:title="@string/voter_services"
+            android:icon="@drawable/ic_search"/>
+
+    <item
+            android:id="@+id/navVoterEducation"
+            android:title="@string/voter_education"
+            android:icon="@drawable/ic_book"/>
+
+    <item
+            android:id="@+id/navFeedback"
+            android:title="@string/feedback"
+            android:icon="@drawable/ic_about"/>
+
+    <item
+            android:id="@+id/navAbout"
+            android:title="@string/about_app"
+            android:icon="@drawable/ic_android"/>
+
+    <item
+            android:id="@+id/navShare"
+            android:title="@string/share_app"
+            android:icon="@drawable/ic_share"/>
+
+    <item
+            android:id="@+id/navSettings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"/>
+
+</menu>

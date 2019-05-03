@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:id="@+id/textView"
+        tools:text="Apply Online (New)"
+        android:drawableRight="@drawable/ic_chevron_right"
+        android:drawableEnd="@drawable/ic_chevron_right"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_font"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="6dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:background="@drawable/search_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+</TextView>

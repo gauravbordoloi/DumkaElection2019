@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/notification">
+
+        <SwitchPreference
+                android:key="feeds_notification"
+                android:defaultValue="true"
+                android:title="@string/feeds_notification"
+                android:summary="@string/notification_feeds_summary"/>
+
+        <SwitchPreference
+                android:key="announcements_notification"
+                android:defaultValue="true"
+                android:title="@string/announcement_notification"
+                android:summary="@string/notification_announcement_summary"/>
+
+        <SwitchPreference
+                android:key="events_notification"
+                android:defaultValue="true"
+                android:title="@string/event_notification"
+                android:summary="@string/notification_event_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/app" >
+
+        <Preference
+                android:key="language"
+                android:title="@string/change_language"
+                android:summary="@string/english_hindi" />
+
+        <Preference
+                android:key="version"
+                android:title="@string/version"
+                android:summary="@string/app_version" />
+
+        <Preference
+                android:key="developer"
+                android:title="@string/developed_by"
+                android:summary="@string/developed_by_details" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

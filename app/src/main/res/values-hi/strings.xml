@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">दुमका चुनाव 2019</string>
+
+    <string name="call">कॉल</string>
+    <string name="navigate">नेविगेट</string>
+    <string name="google_maps_api">AIzaSyD4mprAk2_yAKIqq1cFflO2fT7a50fMP30</string>
+    <string name="news_feeds">समाचार फ़ीड्स</string>
+
+    <string name="important_contact_details">महत्वपूर्ण संपर्क विवरण</string>
+    <string name="polling_station_details">मतदान केंद्र का विवरण</string>
+    <string name="enter_location_pin_code">स्थान, पिन कोड</string>
+    <string name="nearby_me">मेरे पास</string>
+    <string name="candidate_list">उम्मीदवार सूची</string>
+    <string name="jharkhand_map">झारखंड का नक्शा</string>
+    <string name="events">आयोजन</string>
+    <string name="event_details">घटना की जानकारी</string>
+    <string name="skip">छोड़ें</string>
+    <string name="next">आगामी</string>
+    <string name="get_started">शुरू हो जाओ</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="announcements">घोषणाएँ</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="change_language">भाषा बदलो</string>
+    <string name="notify_me">मुझे सूचित करो</string>
+    <string name="submit">जमा करें</string>
+    <string name="mail_us_at_gmonetix_gmail_com">हमें nicdumka@gmail.com पर मेल करें</string>
+    <string name="need_more_help">क्या और मदद चाहिये?</string>
+    <string name="type_your_message_here">अपना संदेश यहां टंकित करें…</string>
+    <string name="message">संदेश</string>
+    <string name="please_provide_us_your_feed_back_so_that_we_can_work_towards_making_the_app_better_and_providing_you_with_a_much_more_immersive_experience">
+        कृपया हमें अपना फ़ीड वापस प्रदान करें ताकि हम ऐप को बेहतर बनाने और आपको बहुत कुछ प्रदान करने की दिशा में काम कर सकें.
+    </string>
+    <string name="please_provide_your_feedback">कृपया अपनी प्रतिक्रिया दें</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="games">खेल</string>
+    <string name="how_shall_we_help_you">हम आपकी कैसे मदद करेंगे?</string>
+    <string name="news_feed">समाचार फ़ीड</string>
+    <string name="voter_services">वोट सेवाएं</string>
+
+    <string name="slide_title_1">अपने हाथों की हथेली पर ईसीआई अपडेट प्राप्त करें!</string>
+    <string name="slide_title_2">#GoVote</string>
+    <string name="slide_title_3">डिजिटल तरीके से काम करें!</string>
+    <string name="slide_desc_1">भारत के चुनाव आयोग से अपडेट प्राप्त करें अपने हाथों की हथेली पर।</string>
+    <string name="slide_desc_2">देश भर के मतदाताओं को सेवा और सूचना वितरण का एक बिंदु।</string>
+    <string name="slide_desc_3">अपने ईपीआईसी कार्ड में सुधार करें, एप्लिकेशन स्थिति ट्रैक करें, शिकायतें दर्ज करें।</string>
+
+    <string name="voter_service_1">ऑनलाइन आवेदन करें (नया)</string>
+    <string name="voter_service_2">स्थानांतरण / स्थानांतरण</string>
+    <string name="voter_service_3">विलोपन (प्रपत्र 7)</string>
+    <string name="voter_service_4">प्रविष्टियों का सुधार (फॉर्म 8)</string>
+    <string name="voter_service_5">ट्रांसपोज़िशन (फॉर्म 8 ए)</string>
+    <string name="voter_service_6">प्रतिस्थापन ईपीआईसी जारी करना</string>
+    <string name="voter_service_7">विदेशी मतदाता का पंजीकरण (फॉर्म 6 ए)</string>
+    <string name="voter_service_8">ट्रैक आवेदन की स्थिति</string>
+    <string name="voter_service_9">जम्मू के प्रवासी मतदाता (फॉर्म 12 सी)</string>
+    <string name="voter_service_10">जे एंड माइग्रेंट इलेक्टर्स (फॉर्म एम)</string>
+    <string name="voter_service_11">सामान्य प्रश्न</string>
+
+    <string name="home_item_title_1">मतदान केन्द्र</string>
+    <string name="home_item_title_2">SVEEP</string>
+    <string name="home_item_title_3">घोषणाएँ</string>
+    <string name="home_item_title_4">मतदाता खोज</string>
+    <string name="home_item_title_5">वोट सेवा</string>
+    <string name="home_item_title_7">खेल</string>
+
+    <string name="home_item_desc_1">मतदान केंद्र के बारे में विवरण प्राप्त करें।</string>
+    <string name="home_item_desc_2">व्यवस्थित मतदाता शिक्षा और चुनावी भागीदारी।</string>
+    <string name="home_item_desc_3">चुनाव और घटनाओं से संबंधित महत्वपूर्ण तिथियां।</string>
+    <string name="home_item_desc_4">ईपीआईसी नंबर का उपयोग करके अपने मतदाता विवरण का पता लगाएं</string>
+    <string name="home_item_desc_5">सभी मतदाता सेवाओं के साथ सामान प्राप्त करें।</string>
+    <string name="home_item_desc_6">चुनाव से संबंधित महत्वपूर्ण समाचार जानिए।</string>
+    <string name="home_item_desc_7">अपना ख़ाली समय खेल खेल में बिताएं।</string>
+
+    <string name="game_title_1">लूडो सामाजिक समावेश</string>
+    <string name="game_title_2">फॉर्म गेम के लिए भूलभुलैया</string>
+    <string name="game_title_3">सांप और सीढ़ी - जागरूक मतदाता</string>
+    <string name="game_title_4">सतर्क मतदाता कार्ड खेल</string>
+    <string name="game_title_5">प्रतिनिधि कार्ड गेम बनें</string>
+    <string name="game_title_6">सूचित मतदाता खेल</string>
+    <string name="game_title_7">वरमाला हिंदी: सूचित मतदाता खेल</string>
+
+    <string name="game_desc_1">एक फ्लोर गेम जिसे मतदाताओं द्वारा "आसान और सुलभ वोटिंग" को समझने के लिए खेला जा सकता है।</string>
+    <string name="game_desc_2">चुनाव के उद्देश्यों के लिए आवश्यक रूपों की बेहतर समझ के लिए एक मंजिल का खेल</string>
+    <string name="game_desc_3">मतदान प्रक्रिया के बारे में मतदाताओं को शिक्षित करने के लिए बनाया गया एक फ्लोर गेम</string>
+    <string name="game_desc_4">एक मतदाता सुनिश्चित करने के लिए एक कार्ड गेम ने अपनी मतदान प्रक्रियाओं को सफलतापूर्वक पूरा किया है</string>
+    <string name="game_desc_5">चुनाव प्रक्रिया को बेहतर ढंग से समझने के लिए चुनाव उम्मीदवारों के लिए एक कार्ड गेम</string>
+    <string name="game_desc_6">मतदाताओं के अधिकारों और जानकारी के बारे में लोगों को शिक्षित करने के लिए एक अंधा तह फर्श का खेल</string>
+    <string name="game_desc_7">चुनाव विषय आधारित हिंदी वर्णमाला चार्ट</string>
+
+    <string name="home">होम</string>
+    <string name="important_contacts">महत्वपूर्ण संपर्क</string>
+    <string name="voter_education">मतदाता शिक्षा</string>
+    <string name="evm_vvpat">EVM/VVPAT</string>
+    <string name="share_app">ऐप शेयर करें</string>
+    <string name="settings">सेटिंग्स</string>
+
+    <string name="feeds_notification">अधिसूचना फ़ीड्स</string>
+    <string name="notification_feeds_summary">समाचार फ़ीड के लिए सूचना प्राप्त करें</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="announcement_notification">घोषणाएँ अधिसूचना</string>
+    <string name="notification_announcement_summary">नई घोषणाओं के लिए अधिसूचना प्राप्त करें</string>
+    <string name="event_notification">घटनाक्रम अधिसूचना</string>
+    <string name="notification_event_summary">नई घटनाओं के लिए अधिसूचना प्राप्त करें</string>
+    <string name="english_hindi">अंग्रेजी / हिंदी</string>
+    <string name="version">संस्करण</string>
+    <string name="version_no">v1.0.2 (अद्यतन के लिए जाँच)</string>
+    <string name="developed_by">द्वारा विकसित</string>
+    <string name="developed_by_details">NIT DGP द्वारा भारत में निर्मित</string>
+    <string name="app">ऐप</string>
+
+    <string name="sveep">SVEEP</string>
+
+    <string name="sveep_item_1">R.o. हॉल ऑफ फेम</string>
+    <string name="sveep_item_2">वोटर ऑफ द डे</string>
+    <string name="sveep_item_3">मतदाता का फीड</string>
+    <string name="sveep_item_4">भाग लेना</string>
+    <string name="sveep_item_5">वीडियो</string>
+    <string name="sveep_item_6">समाचार फ़ीड</string>
+    <string name="sveep_item_7">आयोजन</string>
+
+    <string name="vod">वोटर ऑफ द डे</string>
+    <string name="voters_feeds">मतदाता का फीड</string>
+    <string name="participate_now">अब भाग लें</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="your_content">आपकी सामग्री</string>
+    <string name="interested">इच्छुक</string>
+    <string name="not_interested">रुचि नहीं</string>
+
+    <string name="kyc_constituencies">दुमका निर्वाचन क्षेत्र</string>
+    <string name="kyc_loksabha_profile">दुमका लोकसभा प्रोफाइल</string>
+    <string name="kyc_district_profile">दुमका जिला प्रोफाइल</string>
+    <string name="kyc_map">दुमका का नक्शा</string>
+    <!--<string name="kyc_graph">ग्राफ़</string>
+    <string name="kyc_electors">कुल मतदाता</string>
+    <string name="kyc_more">दुमका के बारे में अधिक</string>-->
+    <string name="kyc">अपना संसदीय क्षेत्र जानें</string>
+
+    <string name="dumka_assembly_constituency_1">04 - लिट्टीपारा (एसटी)</string>
+    <string name="dumka_assembly_constituency_2">07 - शिकारीपारा (एसटी)</string>
+    <string name="dumka_assembly_constituency_3">10 - दुमका (एसटी)</string>
+    <string name="dumka_assembly_constituency_4">11 - जामा (एसटी)</string>
+    <string name="dumka_assembly_constituency_5">12 - जरमुंडी</string>
+    <string name="dumka_assembly_constituency_6">16 - पोरैयाहाट</string>
+
+    <string name="dumka_parliamentary_constituency_1">07 - सिकरिपारा (एसटी)</string>
+    <string name="dumka_parliamentary_constituency_2">08 - नाला</string>
+    <string name="dumka_parliamentary_constituency_3">09 - जामतारा</string>
+    <string name="dumka_parliamentary_constituency_4">10 - दुमका (एसटी)</string>
+    <string name="dumka_parliamentary_constituency_5">11 - जामा (एसटी)</string>
+    <string name="dumka_parliamentary_constituency_6">14 - सारथ</string>
+
+    <string name="constituencies">निर्वाचन क्षेत्रों</string>
+
+    <string name="elected_candidate_1">अध्यक्ष: श्रीमती स्वीटा झा, भारत</string>
+    <string name="elected_candidate_2">उपाध्यक्ष: श्री विनोद कुमार लाल, भारत</string>
+
+    <string name="member_1">वार्ड नंबर 1: वीणा देवी</string>
+    <string name="member_2">वार्ड नो 2: देवशंकर डे</string>
+    <string name="member_3">वार्ड नंबर 3: संजीव कुमार यादव</string>
+    <string name="member_4">वार्ड नंबर 4: स्वीटा साहा</string>
+    <string name="member_5">वार्ड नंबर 5: कौशलेंद्र कुमार</string>
+    <string name="member_6">वार्ड नंबर 6: महेश राम</string>
+    <string name="member_7">वार्ड नंबर 7: चंदन दास</string>
+    <string name="member_8">वार्ड नो 8 : प्रतिमा कुमारी</string>
+    <string name="member_9">वार्ड नंबर 9: इंदू देवी</string>
+    <string name="member_10">वार्ड नंबर 10: एमडी झांगीर आलम</string>
+    <string name="member_11">वार्ड नंबर 11: राजकुमारी देवी</string>
+    <string name="member_12">वार्ड नंबर 12: सीमा देवी</string>
+    <string name="member_13">वार्ड नंबर 13: दीपक स्वर्णकार</string>
+    <string name="member_14">वार्ड नंबर 14: संगिरा दारुका</string>
+    <string name="member_15">वार्ड नंबर 15: सीमा देवी</string>
+    <string name="member_16">वार्ड नंबर 16: राजकुमार मोदी</string>
+    <string name="member_17">वार्ड नंबर 17: अर्बी खातून</string>
+    <string name="member_18">वार्ड नंबर 18: रेखा देवी</string>
+    <string name="member_19">वार्ड नंबर 19: सुमंत कुमार यादव</string>
+    <string name="member_20">वार्ड नंबर 20: मनोज कुमार सिंह</string>
+    <string name="member_21">वार्ड नंबर 21: सोनी हम्ब्रोम</string>
+
+    <string name="mp_parliamentary_constituency">02 - दुमका</string>
+    <string name="sitting_mp">श्री शिबू शोरेन</string>
+    <string name="mp_party">झारखंड मुक्ति मोर्चा</string>
+
+    <string name="ma_assembly_constituency_1">सिकरिपारा, संविधान संख्या - 7</string>
+    <string name="sitting_mla_1">नलिन सोरेन</string>
+    <string name="ma_party_1">नलिन सोरेन</string>
+    <string name="ma_assembly_constituency_2">दुमका, संविधान संख्या - 10</string>
+    <string name="sitting_mla_2">लोइस मरांडी</string>
+    <string name="ma_party_2">भारतीय जनता पार्टी</string>
+    <string name="ma_assembly_constituency_3">जामा, संविधान संख्या - 11</string>
+    <string name="sitting_mla_3">सीता मुर्मू उपनाम सीता सोरेन</string>
+    <string name="ma_party_3">झारखंड मुक्ति मोर्चा</string>
+    <string name="ma_assembly_constituency_4">जरमुंडी, संविधान संख्या - 12</string>
+    <string name="sitting_mla_4">बादल</string>
+    <string name="ma_party_4">भारतीय राष्ट्रीय कांग्रेस</string>
+
+    <string name="dumka_district_mp_and_mla">दुमका जिला के सांसद और विधायक</string>
+    <string name="mp">संसद के सदस्य</string>
+    <string name="ma">विधानसभा का सदस्य</string>
+
+    <string name="video_playlist">वीडियो प्लेलिस्ट</string>
+    <string name="add_link">लिंक जोड़ें</string>
+    <string name="insert_link">लिंक डालें</string>
+    <string name="insert_link_title">लिंक शीर्षक डालें</string>
+    <string name="colors">रंग</string>
+    <string name="select">चुनते हैं</string>
+    <string name="search_booths">बूथों की तलाशी…</string>
+
+    <string name="contributor_name_1">Gaurav Bordoloi (App)</string>
+    <string name="contributor_name_2">Shane Romel Kujur (Server &amp; Panel)</string>
+    <string name="contributor_name_3">Ramswaroop Soren (Server &amp; DB)</string>
+    <string name="contributor_name_4">Gaurav Jaiswal (Games)</string>
+    <string name="contributor_name_5">Sagen Soren (Presentation)</string>
+
+    <string name="contributor_link_1">http://gauravbordoloi.me</string>
+    <string name="contributor_link_2">http://shaneromel.me/</string>
+    <string name="contributor_link_3">https://soren.in</string>
+    <string name="contributor_link_4">https://www.linkedin.com/in/gaurav-jaiswal-b17296185/</string>
+    <string name="contributor_link_5">https://www.linkedin.com/in/sagen-soren-b03949130/</string>
+
+    <string name="contributors">योगदानकर्ता - टीम NIT DGP</string>
+    <string name="about_app">एप्लिकेशन के बारे में</string>
+    <string name="feedback_form">प्रतिक्रिया फॉर्म</string>
+    <string name="email">ईमेल</string>
+    <string name="phone_optional">फोन (वैकल्पिक)</string>
+    <string name="add_content">अपनी सामग्री जोड़ें</string>
+    <string name="app_version">v1.0.2</string>
+    <string name="developed_under_hackathon">हैकाथॉन के तहत विकसित किया गया</string>
+    <string name="code_for_vote">\'Code For Vote\'</string>
+    <string name="govt_of_jharkhand">दुमका, सरकार। झारखंड के, 2019</string>
+    <string name="dumka_constituencies">दुमका निर्वाचन क्षेत्र</string>
+    <string name="assembly_constituencies">विधानसभा निर्वाचन क्षेत्र</string>
+    <string name="parliamentary_constituencies">संसदीय निर्वाचन क्षेत्र</string>
+    <string name="dumka_nagar_parishad">दुमका नगर परिषद</string>
+    <string name="elected_candidates">निर्वाचित उम्मीदवार</string>
+    <string name="members">सदस्य</string>
+    <string name="r_o_hall_of_fame">R.o. हॉल ऑफ फेम</string>
+    <string name="upload_image">तस्वीर डालिये</string>
+    <string name="addcontent">सामग्री जोड़ें</string>
+    <string name="submit_now">अभी जमा करे</string>
+    <string name="participate">भाग लेना</string>
+
+    <string name="select_your_constituency">अपने निर्वाचन क्षेत्र का चयन करें</string>
+    <string name="select_your_block">अपने ब्लॉक का चयन करें</string>
+
+    <string name="contacts_phone_o">फ़ोन (0) : % s</string>
+    <string name="contacts_phone_p">फ़ोन (P) : %s</string>
+    <string name="contacts_fax_o">फैक्स (0) : %s</string>
+    <string name="contacts_email">ईमेल : %s</string>
+
+    <string name="start_end_placeholder">शुरु : %s समाप्त : %s</string>
+    <string name="people_interested">%d लोग रुचि रखते हैं</string>
+    <string name="you_and_people_interested">आप और %d लोग रुचि रखते हैं</string>
+
+    <string name="some_error_occurred">कुछ त्रुटि हुई! बाद में पुन: प्रयास करें।</string>
+    <string name="calendar_view">कैलेंडर दृश्य</string>
+    <string name="list_view">सूची दृश्य</string>
+    <string name="permission_required_to_share_feeds">फ़ीड साझा करने के लिए यह अनुमति आवश्यक है!</string>
+    <string name="permissions_required">अनुमतियाँ इस एप्लिकेशन की पूरी सुविधाएँ प्राप्त करने के लिए आवश्यक हैं।</string>
+    <string name="constituencies_frag">विधानसभा निर्वाचन क्षेत्र \n\nसंसदीय निर्वाचन क्षेत्र</string>
+    <string name="name_of_sitting_mp">संसद सदस्य के बैठने का नाम : </string>
+    <string name="party">पार्टी :</string>
+    <string name="name_of_sitting_mla">विधान सभा के बैठने वाले सदस्य का नाम :</string>
+    <string name="permission_required_to_call">यह अनुमति कॉल करने के लिए आवश्यक है!</string>
+
+    <string name="booth_no">बूथ संख्या : %s</string>
+    <string name="total_voters">कुल मतदाता : %d</string>
+    <string name="total_pwd_voters">विकलांग व्यक्ति कुल मतदाता : %d</string>
+    <string name="blo">BLO : %s</string>
+    <string name="permission_required_to_show_nearby_polls">पास के पोल तक पहुँचने के लिए स्थान की अनुमति आवश्यक है!</string>
+
+    <string name="clear">साफ़</string>
+    <string name="show_all">सब दिखाओ</string>
+    <string name="fetching_your_location">अपना स्थान लाना!</string>
+    <string name="feedback_submitted_successfully">प्रतिक्रिया सफलतापूर्वक सबमिट की गई</string>
+    <string name="this_field_is_required">यह फ़ील्ड आवश्यक है</string>
+    <string name="ten_digit_required">10 अंकों की संख्या की आवश्यकता है</string>
+    <string name="subscribed_to_notification">अधिसूचना के लिए सफलतापूर्वक सदस्यता ली गई</string>
+    <string name="unsubscribed_to_notification">अधिसूचना को सफलतापूर्वक अनसब्सक्राइब किया गया</string>
+    <string name="insert_text_here">यहां टेक्स्ट डालें…</string>
+    <string name="select_image">छवि चुने</string>
+    <string name="content_submitted_successfully">आपकी सामग्री सफलतापूर्वक सबमिट कर दी गई थी</string>
+    <string name="image_uploaded_successfully">छवि सफलतापूर्वक अपलोड की गई!</string>
+    <string name="image_or_content_is_required">मतदाता पदों को जमा करने के लिए छवि या सामग्री की आवश्यकता होती है!</string>
+    <string name="choose_one">एक चुनो</string>
+    <string name="external_storage_not_available">बाहरी संग्रहण उपलब्ध नहीं है!</string>
+    <string name="share_app_text">%s ऐप अब मुफ्त में डाउनलोड करें। डाउनलोड करने के लिए नीचे दिए गए लिंक पर क्लिक करें \n\n%s</string>
+
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="slider_titles">
+        <item>@string/slide_title_1</item>
+        <item>@string/slide_title_2</item>
+        <item>@string/slide_title_3</item>
+    </string-array>
+
+    <string-array name="slider_descriptions">
+        <item>@string/slide_desc_1</item>
+        <item>@string/slide_desc_2</item>
+        <item>@string/slide_desc_3</item>
+    </string-array>
+
+    <array name="slider_icons">
+        <item>@drawable/slide1</item>
+        <item>@drawable/slide2</item>
+        <item>@drawable/slide3</item>
+    </array>
+
+    <string-array name="voter_services">
+        <item>@string/voter_service_1</item>
+        <item>@string/voter_service_2</item>
+        <item>@string/voter_service_3</item>
+        <item>@string/voter_service_4</item>
+        <item>@string/voter_service_5</item>
+        <item>@string/voter_service_6</item>
+        <item>@string/voter_service_7</item>
+        <item>@string/voter_service_8</item>
+        <item>@string/voter_service_9</item>
+        <item>@string/voter_service_10</item>
+        <item>@string/voter_service_11</item>
+    </string-array>
+
+    <string-array name="home_item_title">
+        <item>@string/home_item_title_1</item>
+        <item>@string/home_item_title_2</item>
+        <item>@string/home_item_title_3</item>
+        <item>@string/home_item_title_4</item>
+        <item>@string/home_item_title_5</item>
+        <item>@string/home_item_title_7</item>
+    </string-array>
+
+    <array name="home_item_image">
+        <item>@drawable/polling_station</item>
+        <item>@drawable/sveep</item>
+        <item>@drawable/election_announcements</item>
+        <item>@drawable/voter_epic</item>
+        <item>@drawable/voter_service</item>
+        <item>@drawable/games</item>
+        <item></item>
+    </array>
+
+    <string-array name="home_item_description">
+        <item>@string/home_item_desc_1</item>
+        <item>@string/home_item_desc_2</item>
+        <item>@string/home_item_desc_3</item>
+        <item>@string/home_item_desc_4</item>
+        <item>@string/home_item_desc_5</item>
+        <item>@string/home_item_desc_7</item>
+    </string-array>
+
+    <string-array name="districts">
+        <item>All</item>
+        <item>Bokaro</item>
+        <item>Chatra</item>
+        <item>Deoghar</item>
+        <item>Dhanbad</item>
+        <item>Dumka</item>
+        <item>East Singhbhum</item>
+        <item>Garhwa</item>
+        <item>Giridih</item>
+        <item>Godda</item>
+        <item>Gumla</item>
+        <item>Hazaribag</item>
+        <item>Jamtara</item>
+        <item>Khunti</item>
+        <item>Koderma</item>
+        <item>Latehar</item>
+        <item>Lohardaga</item>
+        <item>Pakur</item>
+        <item>Palamu</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>Sahibganj</item>
+        <item>Seraikela-Kharsawan</item>
+        <item>Simdega</item>
+        <item>West Singhbhum</item>
+    </string-array>
+
+    <string-array name="game_title">
+        <item>@string/game_title_1</item>
+        <item>@string/game_title_2</item>
+        <item>@string/game_title_3</item>
+        <item>@string/game_title_4</item>
+        <item>@string/game_title_5</item>
+        <item>@string/game_title_6</item>
+        <item>@string/game_title_7</item>
+    </string-array>
+
+    <string-array name="game_descriptions">
+        <item>@string/game_desc_1</item>
+        <item>@string/game_desc_2</item>
+        <item>@string/game_desc_3</item>
+        <item>@string/game_desc_4</item>
+        <item>@string/game_desc_5</item>
+        <item>@string/game_desc_6</item>
+        <item>@string/game_desc_7</item>
+    </string-array>
+
+    <array name="game_images">
+        <item>@drawable/game1</item>
+        <item>@drawable/game2</item>
+        <item>@drawable/game3</item>
+        <item>@drawable/game4</item>
+        <item>@drawable/game5</item>
+        <item>@drawable/game6</item>
+        <item>@drawable/game7</item>
+    </array>
+
+    <string-array name="sveep_items">
+        <item>@string/sveep_item_1</item>
+        <item>@string/sveep_item_2</item>
+        <item>@string/sveep_item_3</item>
+        <item>@string/sveep_item_4</item>
+        <item>@string/sveep_item_5</item>
+        <item>@string/sveep_item_6</item>
+        <item>@string/sveep_item_7</item>
+    </string-array>
+
+    <array name="sveep_items_images">
+        <item>@drawable/ic_account_tie</item>
+        <item>@drawable/ic_eci_officials</item>
+        <item>@drawable/ic_evm</item>
+        <item>@drawable/ic_participate</item>
+        <item>@drawable/ic_playlist</item>
+        <item>@drawable/ic_news</item>
+        <item>@drawable/ic_calendar</item>
+    </array>
+
+    <array name="kyc_titles">
+        <item>@string/kyc_constituencies</item>
+        <item>@string/kyc_loksabha_profile</item>
+        <item>@string/kyc_district_profile</item>
+        <item>@string/kyc_map</item>
+        <!--<item>@string/kyc_electors</item>
+        <item>@string/kyc_graph</item>
+        <item>@string/kyc_more</item>-->
+    </array>
+
+    <array name="assembly_constituency">
+        <item>@string/dumka_assembly_constituency_1</item>
+        <item>@string/dumka_assembly_constituency_2</item>
+        <item>@string/dumka_assembly_constituency_3</item>
+        <item>@string/dumka_assembly_constituency_4</item>
+        <item>@string/dumka_assembly_constituency_5</item>
+        <item>@string/dumka_assembly_constituency_6</item>
+    </array>
+
+    <array name="assembly_constituency_names">
+        <item>Littipara</item>
+        <item>Shikaripara</item>
+        <item>Dumka</item>
+        <item>Jama</item>
+        <item>Jarmundi</item>
+        <item>Poraiyahat</item>
+    </array>
+
+    <array name="assembly_constituency_block_3">
+        <item>Dumka</item>
+        <item>Masalia</item>
+    </array>
+
+    <array name="assembly_constituency_block_4">
+        <item>Jama</item>
+        <item>Ramgarh</item>
+    </array>
+
+    <array name="assembly_constituency_block_5">
+        <item>Jarmundi</item>
+    </array>
+
+    <array name="assembly_constituency_block_6">
+        <item>Saraiyahat</item>
+    </array>
+
+    <array name="assembly_constituency_block_1">
+        <item>Gopikandar</item>
+    </array>
+
+    <array name="assembly_constituency_block_2">
+        <item>Shikaripara</item>
+        <item>Kathikund</item>
+        <item>Ranishwar</item>
+    </array>
+
+    <array name="parliamentary_constituency">
+        <item>@string/dumka_parliamentary_constituency_1</item>
+        <item>@string/dumka_parliamentary_constituency_2</item>
+        <item>@string/dumka_parliamentary_constituency_3</item>
+        <item>@string/dumka_parliamentary_constituency_4</item>
+        <item>@string/dumka_parliamentary_constituency_5</item>
+        <item>@string/dumka_parliamentary_constituency_6</item>
+    </array>
+
+    <string-array name="elected_candidates">
+        <item>@string/elected_candidate_1</item>
+        <item>@string/elected_candidate_2</item>
+    </string-array>
+
+    <string-array name="members">
+        <item>@string/member_1</item>
+        <item>@string/member_2</item>
+        <item>@string/member_3</item>
+        <item>@string/member_4</item>
+        <item>@string/member_5</item>
+        <item>@string/member_6</item>
+        <item>@string/member_7</item>
+        <item>@string/member_8</item>
+        <item>@string/member_9</item>
+        <item>@string/member_10</item>
+        <item>@string/member_11</item>
+        <item>@string/member_12</item>
+        <item>@string/member_13</item>
+        <item>@string/member_14</item>
+        <item>@string/member_15</item>
+        <item>@string/member_16</item>
+        <item>@string/member_17</item>
+        <item>@string/member_18</item>
+        <item>@string/member_19</item>
+        <item>@string/member_20</item>
+        <item>@string/member_21</item>
+    </string-array>
+    
+    <string-array name="ma_assembly_constituency">
+        <item>@string/ma_assembly_constituency_1</item>
+        <item>@string/ma_assembly_constituency_2</item>
+        <item>@string/ma_assembly_constituency_3</item>
+        <item>@string/ma_assembly_constituency_4</item>
+    </string-array>
+    
+    <string-array name="sitting_mla">
+        <item>@string/sitting_mla_1</item>
+        <item>@string/sitting_mla_2</item>
+        <item>@string/sitting_mla_3</item>
+        <item>@string/sitting_mla_4</item>
+    </string-array>
+
+    <string-array name="ma_party">
+        <item>@string/ma_party_1</item>
+        <item>@string/ma_party_2</item>
+        <item>@string/ma_party_3</item>
+        <item>@string/ma_party_4</item>
+    </string-array>
+    
+</resources>

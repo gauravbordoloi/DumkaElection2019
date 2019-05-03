@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".settings.ChangeLanguageFragment">
+
+    <TextView
+            android:id="@+id/textViewTitle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_font"
+            android:text="@string/change_language"
+            android:background="@color/black1"
+            android:padding="16dp"
+            android:elevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_below="@+id/textViewTitle"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+                android:id="@+id/btnEnglish"
+                android:text="@string/english"
+                android:fontFamily="@font/roboto_font"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:background="@drawable/search_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <RadioButton
+                android:id="@+id/btnHindi"
+                android:text="@string/hindi"
+                android:fontFamily="@font/roboto_font"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:background="@drawable/search_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChangeLanguage"
+            android:padding="12dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/change_language"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_font"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

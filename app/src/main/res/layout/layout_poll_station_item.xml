@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        android:clipToPadding="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imageViewMap"
+                tools:src="@drawable/news_feeds"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ContentDescription"/>
+
+        <TextView
+                android:id="@+id/textViewTitle"
+                tools:text="Kewatapara Primary School Purana Dumka"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_margin="12dp"
+                android:fontFamily="@font/montserrat_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <!--<TextView
+                android:id="@+id/textViewAddress"
+                tools:text="Dumka, Jharkand 814101"
+                android:maxLines="2"
+                android:textSize="12sp"
+                android:visibility="gone"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/roboto_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>-->
+
+        <LinearLayout
+                android:weightSum="2"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCall"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/call"
+                    app:iconGravity="textStart"
+                    android:textAllCaps="false"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    app:icon="@drawable/ic_call"
+                    android:layout_height="wrap_content"/>
+
+            <Space
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"/>
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNavigate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/navigate"
+                    app:iconGravity="textStart"
+                    android:textAllCaps="false"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    app:icon="@drawable/ic_navigate"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

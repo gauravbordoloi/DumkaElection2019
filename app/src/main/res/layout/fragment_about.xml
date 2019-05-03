@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutFragment">
+
+    <TextView
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_font"
+            android:text="@string/about_app"
+            android:background="@color/black1"
+            android:padding="16dp"
+            android:elevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="100dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="100dp"/>
+
+            <TextView
+                    android:text="@string/app_version"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:text="@string/developed_under_hackathon"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/roboto_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:text="@string/code_for_vote"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/montserrat_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:text="@string/govt_of_jharkhand"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/roboto_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_font"
+                    android:text="@string/contributors"
+                    android:padding="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textViewContributor1"
+                    android:text="@string/contributor_name_1"
+                    android:drawableRight="@drawable/ic_chevron_right"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/roboto_font"
+                    android:padding="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawablePadding="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:background="@drawable/search_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textViewContributor2"
+                    android:text="@string/contributor_name_2"
+                    android:drawableRight="@drawable/ic_chevron_right"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/roboto_font"
+                    android:padding="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawablePadding="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:background="@drawable/search_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textViewContributor3"
+                    android:text="@string/contributor_name_3"
+                    android:drawableRight="@drawable/ic_chevron_right"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/roboto_font"
+                    android:padding="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawablePadding="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:background="@drawable/search_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textViewContributor4"
+                    android:text="@string/contributor_name_4"
+                    android:drawableRight="@drawable/ic_chevron_right"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/roboto_font"
+                    android:padding="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawablePadding="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:background="@drawable/search_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textViewContributor5"
+                    android:text="@string/contributor_name_5"
+                    android:drawableRight="@drawable/ic_chevron_right"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/roboto_font"
+                    android:padding="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawablePadding="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:background="@drawable/search_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
